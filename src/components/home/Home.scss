@@ -1,0 +1,23 @@
+.home {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../../assets/g-rich-background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    gap: 70px;
+
+    &-video {
+     margin-top: 50%;
+    } 
+    &-img {
+        position:relative;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        box-shadow: 0 4px 6px 15px rgba(116, 116, 116, 0.279);
+    }
+}
