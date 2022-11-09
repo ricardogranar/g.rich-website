@@ -1,0 +1,25 @@
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    &-icon{
+        width: 32px;
+        height: 32px;
+        &-img{
+            width: 100%;
+        }
+    }
+
+}
+@media (max-width: 500px){
+    .social-media {
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
